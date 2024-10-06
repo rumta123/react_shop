@@ -1,0 +1,39 @@
+.back {
+    box-sizing: border-box;
+    background-image: url('../../img/back.jpeg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-blend-mode: multiply;
+    background-color:  #00000066;;
+    position: relative; /* Добавлено позиционирование для правильного отображения псевдоэлемента */
+}
+
+.back::before {
+    content: "Amazing Discounts \A on A Garden Products!";
+    white-space: pre-wrap; /* Разрешить перенос строки */
+    font-family: Montserrat;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 106px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #fff;
+    position: absolute;
+    top: 0; /* Растягиваем псевдоэлемент от верхнего до нижнего края блока */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background: #00000066; */
+}
+
+.btn{
+    position: relative;
+    z-index: 1;
+    top: 300px;
+    left: 40px;
+}

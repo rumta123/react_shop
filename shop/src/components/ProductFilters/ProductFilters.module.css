@@ -1,0 +1,79 @@
+.mySearch {
+    display: flex;
+    align-items: center;
+}
+input{
+    gap: 20px;
+
+}
+input[type="text"] {
+    width: 112px;
+    height: 36px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.mySearch{
+    label {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+
+}} 
+.mySearch input{
+    margin-bottom: 0px;
+    gap: 8px;
+    margin-right: 8px;
+}
+.mySearch select{
+    
+ 
+    width: 200px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+/* Стилизация чекбокса */
+input[type="checkbox"] {
+    -webkit-appearance: none; /* Убираем стандартный стиль */
+    -moz-appearance: none;
+    appearance: none;
+    width: 36px; /* Размер чекбокса */
+    height: 36px;
+    border: 2px solid #DDDDDD; /* Цвет рамки */
+    border-radius: 3px; /* Скругляем углы */
+    outline: none; /* Убираем обводку */
+    cursor: pointer; /* Курсор при наведении */
+    position: relative; /* Позиционируем для галочки */
+    padding: 10px 15px;
+
+  }
+  
+  /* Стилизация отмеченного чекбокса */
+  input[type="checkbox"]:checked {
+    background-color: #339933; /* Изменяем цвет фона при выборе */
+  }
+  
+  /* Стилизация галочки */
+  input[type="checkbox"]:checked::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 13px;
+    width: 5px;
+    height: 16px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }

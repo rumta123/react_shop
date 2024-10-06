@@ -1,0 +1,18 @@
+.InputForm{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid white;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 16px 32px 16px 32px;
+    gap: 10px
+}

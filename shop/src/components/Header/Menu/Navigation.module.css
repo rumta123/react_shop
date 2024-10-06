@@ -1,0 +1,37 @@
+
+.active{
+    font-size: 125px;
+}
+ul {
+    display: flex;
+    gap: 32px;
+    /* align-items: center; */
+
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    font-size: 20px;
+    line-height: 26px;
+    gap: 32px;
+    cursor: pointer;
+    color: #282828;
+    text-decoration: none;
+    padding: 8px 16px 8px 16px;
+    border-radius: 6px;
+    /* border: 1px; */
+    gap: 10px;
+    /* border-color:rgba(221, 221, 221, 1) */
+
+
+}
+
+li a:hover {
+    color: #339933!important;
+    border: 1px solid rgba(221, 221, 221, 1)
+}
+
+

@@ -1,0 +1,168 @@
+
+
+.productList {
+   
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: flex-start;
+li {
+    display: flex;
+    column-gap: 32px;
+    border: 1px solid #DDDDDD;
+    padding-right: 32px;
+    border-radius: 12px;
+}
+}
+
+.productImage {
+    width: 200px;
+    height: 180px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 12px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #DDDDDD
+}
+
+.productInfo {
+    display: grid;
+    align-items: center;
+
+    div:first-child {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .counts {
+        display: flex;
+        gap: 32px
+    }
+
+    div:last-child {
+        display: flex;
+    }
+}
+
+.blockBasket {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+
+
+}
+
+.price1 {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+
+}
+
+.discont1 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    text-decoration: line-through;
+
+}
+
+.all_discont {
+    display: flex;
+    gap: 32px
+}
+
+.form {
+    padding: 32px;
+    background: #F1F3F4;
+
+    gap: 32px;
+    border-radius: 12px;
+    opacity: 0px;
+
+    p:first-child {
+        font-family: Montserrat;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 44px;
+        text-align: left;
+        color: #282828;
+
+
+    }
+
+    p {
+
+        font-family: Montserrat;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 52px;
+        text-align: left;
+        color: #8B8B8B;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    p span {
+        font-family: Montserrat;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 70.4px;
+        text-align: left;
+        color: #282828;
+
+    }
+}
+
+.Onsubmit {
+    background: #339933;
+
+}
+
+.modalContent {
+    position: fixed;
+    top: 25%;
+   left: 35vw;
+    background: #339933;
+    width: 548px;
+    height: 236px;
+    gap: 16px;
+    border-radius: 12px;
+    opacity: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding: 32px;
+ 
+    h2,
+    p {
+        color: #fff;
+    }
+
+    h2 {
+        font-family: Montserrat;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 44px;
+        text-align: left;
+
+    }
+
+    p {
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 22px;
+        text-align: left;
+
+    }
+    .cclose{
+        color:#fff
+    }
+}

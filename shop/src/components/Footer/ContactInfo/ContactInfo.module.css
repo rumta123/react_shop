@@ -1,0 +1,42 @@
+.block {
+    background: #F1F3F4;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    padding: 32px;
+
+    Gap: 16px;
+    border-radius: 12px;
+}
+
+.label {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8B8B8B;
+
+}
+
+.description {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282828;
+
+}
+
+.block  a {
+    text-decoration: none;
+}
+
+.icons {
+    display: flex;
+    column-gap: 16px;
+}

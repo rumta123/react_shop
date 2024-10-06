@@ -1,0 +1,75 @@
+:root {
+  --color: #282828;
+  --paddind :50px
+}
+.App {
+  text-align: center;
+  margin: 0 auto;
+  width: 1440px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+h2{
+  font-family: Montserrat;
+font-size: 64px;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid white;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+
+
+  padding: 16px 32px 16px 32px;
+  gap: 10px
+}
+
+input[type=submit]{
+  text-align: center;
+  cursor: pointer;
+  font-family: Montserrat;
+font-size: 20px;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+input[type=submit]:hover {
+  background-color: #282828;
+  color:#fff;
+}
+
+input[type=submit]:active {
+  background-color: #fff;
+  color: #282828;
+}
+.active-link {
+  border: 1px solid rgba(221, 221, 221, 1);
+
+}
+footer{
+  margin-top: 50px;
+}
+

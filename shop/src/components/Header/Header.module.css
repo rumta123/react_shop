@@ -1,0 +1,42 @@
+
+    .header {
+        border-bottom: 1px solid rgba(221, 221, 221, 1);
+        display: flex;
+        justify-content: space-between;
+        height: 128px;
+        align-items: center;
+     }
+
+.logo{
+    padding-left: 40px;
+    cursor: pointer;
+}
+.basket{
+    padding-right: 40px;
+    cursor: pointer; 
+}
+
+/* .presentation {
+    background-image: url('../../img/logo.svg');
+    width: 70px;
+    height: 70px;
+    left: 38px;
+    top: 64px;
+} */
+
+.logo img{
+    width: 70px;
+    height: 70px; 
+}
+
+.cartItemCount{
+    background: green;
+    /* padding: 10px; */
+    border-radius: 50%;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    margin-left: -47px;
+    color: #fff;
+    padding: 2px;
+}
