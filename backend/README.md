@@ -1,11 +1,4 @@
-# Данный backend позволит вам выполнить проект
 
-[Ссылка на макет]
-https://www.figma.com/file/0pMguGfGcTgufmXlNJe5gO/IE-FE?type=design&node-id=0-1&mode=design
-
-Это API, которое вам необходимо скачать и запустить у себя локально. Вам не нужно его манять или дорабатывать. Данный проект будет представлять back-end вашего проекта.
-
-http://localhost:3333/category_img/4.jpeg
 ## Команды для запуска API
 
 ### `npm i `
